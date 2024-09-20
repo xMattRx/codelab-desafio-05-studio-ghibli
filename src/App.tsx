@@ -5,27 +5,27 @@ const App: React.FC = () => {
     <div className="studio">
       <div className="studio__container">
         <header className="studio__header">
-          <img src="/src/assets/logo.png" alt="" className="studio__logo" />
+          <img src="/logo.png" alt="" className="studio__logo" />
           <nav>
             <ul className="studio__menu">
               <li>
                 <a href="#" className="studio__menuItem">
-                  <img src="/src/assets/google.png" alt="" />
+                  <img src="/google.png" alt="" />
                 </a>
               </li>
               <li>
                 <a href="#" className="studio__menuItem">
-                  <img src="/src/assets/facebook.png" alt="" />
+                  <img src="/facebook.png" alt="" />
                 </a>
               </li>
               <li>
                 <a href="#" className="studio__menuItem">
-                  <img src="/src/assets/twitter.png" alt="" />
+                  <img src="/twitter.png" alt="" />
                 </a>
               </li>
               <li>
                 <a href="#" className="studio__menuItem">
-                  <img src="/src/assets/instagram.png" alt="" />
+                  <img src="/instagram.png" alt="" />
                 </a>
               </li>
             </ul>
@@ -38,11 +38,11 @@ const App: React.FC = () => {
               DE CHIHIRO</h1>
             <p className="studio__description">Chihiro chega a um mundo mágico dominado por uma bruxa. Aqueles que a desobedecem são transformados em animais.</p>
             <div className="studio__buttons">
-              <button className="studio__now"> <img src="/src/assets/play.png"/> assistir agora</button>
+              <button className="studio__now"> <img src="/play.png"/> assistir agora</button>
               <button className="studio__trailer">assista o trailer</button>
             </div>
           </div>
-          <img className="studio__illustration" src="/src/assets/ilustração.png" alt="" />
+          <img className="studio__illustration" src="/ilustração.png" alt="" />
         </main>
       </div>
     </div>
