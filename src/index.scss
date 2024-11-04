@@ -22,7 +22,7 @@
 body {
   background: url("/background.png");
   background-repeat: no-repeat;
-  
+
   background-size: cover;
   font-family: var(--archivo), sans-serif;
   font-optical-sizing: auto;
@@ -30,8 +30,10 @@ body {
   height: 100vh;
   margin: 0;
 
+
   @media screen and (max-width: 1024px) {
     background-position-x: -600px;
+    height: auto;
   }
 
   input[type="email"],
